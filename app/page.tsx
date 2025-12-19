@@ -1,23 +1,27 @@
 
-import Image from "next/image";
+import Image from "next/image"; 
+import Header from "../components/header";
+import MittiAI from "../components/mittiAI";
 
 export default function Home() {
   return (
-    <>
-    <section className="relative h-[2040px] bg-black text-white">
-      <div className="absolute inset-0 m-auto px-[30vw] py-10 flex flex-col justify-center">
+    <> 
+    <Header />
+    <MittiAI/>
+    {/* <section className="relative h-[2040px] bg-black text-white">
+      <div className="absolute inset-0 m-auto px-[30vw] py-10 flex flex-col justify-center"> */}
         {/* Hero */}
-        <div className="mb-8">
+        {/* <div className="mb-8">
           <h1 className="text-3xl md:text-4xl font-extrabold tracking-tight mb-3">
             Swastik
           </h1>
           <p className="text-sm md:text-base text-slate-300 max-w-2xl mx-auto">
             Transforming Business Economics Through AI-Driven Financial Optimization
-          </p>
-        </div>
+          </p> */}
+     
 
         {/* Content */}
-        <div className="space-y-6 text-sm md:text-base text-slate-200 max-w-3xl mx-auto text-left">
+        {/* <div className="space-y-6 text-sm md:text-base text-slate-200 max-w-3xl mx-auto text-left">
           <div>
             <h2 className="font-bold mb-1">Introduction</h2>
             <p>
@@ -28,9 +32,9 @@ export default function Home() {
               to move beyond reactive cost control toward continuous, intelligent
               financial optimization.
             </p>
-          </div>
+          </div> */}
 
-          <div>
+          {/* <div>
             <h2 className="font-bold mb-1">The Challenge</h2>
             <p>
               Modern organizations operate across fragmented systems—ERPs,
@@ -39,8 +43,8 @@ export default function Home() {
               capture real-time inefficiencies, resulting in cost leakage,
               delayed decisions, and missed optimization opportunities.
             </p>
-          </div>
-
+          </div> */}
+{/* 
           <div>
             <h2 className="font-bold mb-1">How Swastik Works</h2>
             <p>
@@ -62,9 +66,9 @@ export default function Home() {
               managers receive actionable insights that align daily decisions
               with long-term financial strategy.
             </p>
-          </div>
+          </div> */}
 
-          <div>
+          {/* <div>
             <h2 className="font-bold mb-1">Measurable Value</h2>
             <p>
               Organizations using Swastik typically realize measurable savings
@@ -73,8 +77,8 @@ export default function Home() {
               create compounding financial benefits that strengthen margins and
               improve long-term resilience.
             </p>
-          </div>
-
+          </div> */}
+{/* 
           <div>
             <h2 className="font-bold mb-1">Conclusion</h2>
             <p className="text-slate-300">
@@ -84,10 +88,8 @@ export default function Home() {
               strategic layer that enables sustainable growth, economic
               discipline, and long-term competitive advantage.
             </p>
-          </div>
-        </div>
-      </div>
-    </section>
+          </div> */}
+    
 
 
 
