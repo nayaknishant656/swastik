@@ -2,7 +2,9 @@ import React from 'react'
 
 export default function mittiAI() {
   return (
-    <div>
+
+    <>
+     <div>
       This AI Agritculte LLM Ecosystem to Yield More Production of framers Using Tech and Bio Science.
       <ul style={{ listStyleType: 'disc', paddingLeft: '20px' }}>
     
@@ -17,5 +19,9 @@ export default function mittiAI() {
         <li>Sustainability Practices</li>
       </ul>
     </div>
+
+    <div> HOME CENTER APPLIANCE MCP MANAGEMENT + MANAGAING ALL THE ELECTRICAL APPLIANCE WITH INTEGRATOn OF AI MODEL AND FUNCATIONING WITH CHATBOT AND ORCHESTRAITING WITH IT </div>
+    </>
+   
   )
 }
