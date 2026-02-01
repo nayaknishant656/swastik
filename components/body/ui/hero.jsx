@@ -1,9 +1,9 @@
 import React from 'react'
-
+import './ui.css'
 function hero() {
   return (
-    <div>
-      <h1>Hero Section</h1>
+    <div className='hero-section-body'>
+      <h2>Hero Section</h2>
     </div>
   )
 }

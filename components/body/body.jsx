@@ -4,14 +4,17 @@ import Features from './ui/features'
 import Testimonials from './ui/testimonials'
 import Cta from './ui/cta'
 import Faq from './ui/fqa'
+import './body.css'
 function Body() {
   return (
-    <div>
-      <Hero/>
+    <div className="gp-body">
+      <div className="p-body">
+        <Hero/>
         <Features/>
         <Testimonials/>
         <Cta/>
         <Faq/>
+      </div>
     </div>
   )
 }

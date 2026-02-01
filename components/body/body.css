@@ -1,0 +1,9 @@
+.gp-body
+{
+    border: solid red 1px;
+    background-color: rgb(137, 107, 107);
+    height: 100vh;
+}
+.p-body{
+    border: solid red 1px;
+}

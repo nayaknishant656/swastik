@@ -1,9 +1,11 @@
 import React from 'react'
-
+import './footer.css'
 function footer() {
   return (
-    <div>
-      <h2>Footer Section</h2>
+    <div className="gp-footer">
+      <div className="p-footer">
+        <h2>Footer Section</h2>
+      </div>
     </div>
   )
 }

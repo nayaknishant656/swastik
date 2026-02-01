@@ -1,0 +1,6 @@
+.hero-section-body
+{
+    border: solid blue 1px;
+    background-color: rgb(77, 255, 0);
+    height: 100vh;
+}
