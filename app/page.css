@@ -1,0 +1,11 @@
+.grandparent-body-width {
+ width: 1090px;
+ border: 1px solid red;
+    margin: 0 auto;
+    padding: 5px;
+}
+.parent-body-width{
+    border: solid red 1px;
+    padding: 0px 30px;
+
+}
